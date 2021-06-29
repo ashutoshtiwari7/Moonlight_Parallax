@@ -141,3 +141,15 @@ section img#mountains_front
     margin-bottom: 10px;
     color: #fff;
 }
+@media(max-width: 768px){
+    #header
+    {
+        padding: 20px;
+    }
+    #header .logo{
+        font-size: 1.5em;
+    }
+    #header .navigation{
+        display: none;
+    }
+}
